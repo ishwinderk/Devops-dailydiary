@@ -7,16 +7,23 @@
             font-family: 'Times New Roman', Times, serif, sans-serif;
             line-height: 1.6;
             margin: 20px;
-            max-width: 600px;
+            max-width: 800px;
             margin: 0 auto;
+            background-color: #f6f6f6;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         h1 {
             color: #10526c;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #10526c;
+            padding-bottom: 5px;
         }
 
         p {
             color: #0f486b;
+            margin-bottom: 10px;
         }
 
         ul {
@@ -38,20 +45,42 @@
         a:hover {
             border-bottom: 2px solid #155d79;
         }
+
+        .intro {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .intro p {
+            margin: 0;
+        }
+
+        .footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #888;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to My Daily Diary</h1>
-    <p>Click on the links below to view each day's entry:</p>
+    <div class="intro">
+        <p>
+            This is a simple daily diary to record my thoughts and experiences during my DevOps training.
+            Feel free to explore each day's entry by clicking on the links above.
+        </p>
+    </div>
     <ul>
         <li><a href="./daily_entries/day1.html">Day 1</a></li>
         <li><a href="./daily_entries/day2.html">Day 2</a></li>
         <!-- Add more links for each day as needed -->
     </ul>
-    <p>
-        This is a simple daily diary to record my thoughts and experiences each day.
-        Feel free to explore each day's entry by clicking on the links above.
-    </p>
+    <div class="footer">
+        <p>Powered by GitHub Pages | Created by Ishwinder Kaur</p>
+    </div>
 </body>
 </html>
+
 
