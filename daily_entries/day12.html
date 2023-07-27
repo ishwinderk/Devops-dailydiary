@@ -1,0 +1,62 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link type="text/css" rel="stylesheet" href="resources/sheet.css" >
+<style type="text/css">.ritz .waffle a { color: inherit; }.ritz .waffle .s0{border-right: none;background-color:#ffffff;text-align:left;color:#000000;font-family:'Times New Roman';font-size:12pt;vertical-align:top;white-space:nowrap;direction:ltr;padding:2px 3px 2px 3px;}</style><div class="ritz grid-container" dir="ltr"><table class="waffle" cellspacing="0" cellpadding="0"><thead><tr><th class="row-header freezebar-origin-ltr"></th><th id="1086020756C0" style="width:793px;" class="column-headers-background"></th></tr></thead><tbody><tr style="height: 387px"><th id="1086020756R0" style="height: 387px;" class="row-headers-background"><div class="row-header-wrapper" style="line-height: 387px"></div></th><td class="s0 softmerge" dir="ltr"><div class="softmerge-inner" style="width:3091px;left:-1px"><span style="font-size:14pt;font-weight:bold;">Day - 12 ~26/7/23 ~ Wednesday<br><br></span><span style="font-weight:bold;">CI/CD Pipeline using Jenkins<br></span>Jenkins is a n automation platform that allows you to Build, Test and Deploy software using pipeline.<br>It can be used to automate any task.<br>It provides web GUI and one can customize all the functionality.<br>Jenkins is an open-source automation server that is widely used for continuous integration (CI) and continuous delivery (CD) in software development. It allows developers to automate various tasks, such as building, testing, and deploying software applications, thereby improving the software development process&#39;s efficiency and reliability.
+<br>
+<br><span style="font-weight:bold;">Key features and functionalities of Jenkins include:</span>
+<br>
+<br><span style="font-weight:bold;">1. Continuous Integration (CI):</span> Jenkins enables developers to automatically build and test their code whenever changes are committed to a version control repository (e.g., Git). This ensures that new code integrates smoothly with the existing codebase and helps catch integration issues early in the development process.
+<br>
+<br><span style="font-weight:bold;">2. Continuous Delivery (CD):</span> Jenkins supports continuous delivery by automating the deployment of applications to various environments, such as development, staging, and production. This streamlines the release process and makes it easier to deliver software updates quickly and reliably.
+<br>
+<br><span style="font-weight:bold;">3. Plugin Ecosystem:</span> Jenkins has a vast plugin ecosystem, which allows users to extend its functionality and integrate with various tools and technologies. There are plugins available for version control systems, build tools, testing frameworks, deployment platforms, and more.
+<br>
+<br><span style="font-weight:bold;">4. Pipeline Support: </span>Jenkins provides a powerful feature called Jenkins Pipeline, which allows users to define their entire CI/CD process as a code pipeline. This pipeline can be version-controlled alongside the application&#39;s source code, providing a clear and reproducible path for building, testing, and deploying applications.
+<br>
+<br><span style="font-weight:bold;">5. Distributed Builds:</span> Jenkins can distribute build and test jobs across multiple agents, allowing it to handle large-scale projects efficiently.
+<br>
+<br><span style="font-weight:bold;">6. Extensibility and Customization: </span>Jenkins is highly customizable and flexible, allowing users to create workflows tailored to their specific needs.
+<br>
+<br><span style="font-weight:bold;">7. Security and Access Control: </span>Jenkins supports role-based access control, providing various levels of access to different users or teams. It also provides features for securing sensitive information like credentials and API keys.
+<br>
+<br><span style="font-weight:bold;">8. Monitoring and Reporting: </span>Jenkins provides various built-in monitoring tools and reporting capabilities to track the health and status of builds and jobs.
+<br>
+<br>Jenkins is written in Java and runs on a Java servlet container like Apache Tomcat. It can be installed on various operating systems, including Linux, macOS, and Windows. Users interact with Jenkins through a web-based user interface, making it accessible from any device with a web browser.
+<br>
+<br>As an open-source project, Jenkins has a large and active community of developers contributing to its ongoing development and improvement. It has become a foundational tool in the DevOps ecosystem, helping teams automate repetitive tasks, improve code quality, and accelerate the software delivery process.<br><br><span style="font-weight:bold;">Jenkins infrastructure<br><br></span>The Jenkins infrastructure refers to the setup and configuration of resources needed to run Jenkins as an automation server in a software development environment. Setting up a Jenkins infrastructure involves several components and considerations to ensure efficient and reliable continuous integration and continuous delivery (CI/CD) processes. Below are the key components and aspects of a typical Jenkins infrastructure:
+<br>
+<br>1. Server Hardware/VM:
+<br>   - Jenkins can be installed on a physical server or a virtual machine (VM). The hardware/VM specifications depend on the scale of the projects and the expected workload. Sufficient CPU, RAM, and disk space are essential to handle concurrent builds and multiple jobs.
+<br>
+<br>2. Operating System:
+<br>   - Jenkins supports multiple operating systems, including Linux, macOS, and Windows. The choice of OS depends on the organization&#39;s preferences and the tools and technologies used in the development environment.
+<br>
+<br>3. Java Runtime Environment (JRE):
+<br>   - Jenkins is written in Java, so a compatible JRE is required to run it. Typically, the latest stable version of Java is recommended for security and performance reasons.
+<br>
+<br>4. Web Server or Servlet Container:
+<br>   - Jenkins requires a web server or servlet container to serve its web-based user interface. Popular choices include Apache Tomcat or Jetty.
+<br>
+<br>5. Version Control System:
+<br>   - Jenkins integrates with various version control systems like Git, Subversion, Mercurial, and others. This allows Jenkins to trigger builds automatically when code changes are pushed to the version control repository.
+<br>
+<br>6. Build Tools:
+<br>   - Jenkins supports a wide range of build tools like Apache Maven, Gradle, Ant, and others. These build tools are used to compile the source code and produce executable artifacts.
+<br>
+<br>7. Test Frameworks:
+<br>   - Jenkins can be integrated with various testing frameworks (e.g., JUnit, TestNG) to execute automated tests and generate test reports.
+<br>
+<br>8. Artifact Repositories:
+<br>   - Jenkins can publish build artifacts to artifact repositories like Nexus, JFrog Artifactory, or others. This ensures that the generated artifacts are accessible for deployment and sharing.
+<br>
+<br>9. Docker Integration:
+<br>   - Jenkins can be integrated with Docker to build and run jobs in Docker containers, allowing for consistent and isolated build environments.
+<br>
+<br>10. Authentication and Access Control:
+<br>    - Jenkins supports various authentication mechanisms (e.g., LDAP, Active Directory) and provides access control for different user roles to ensure secure access to Jenkins resources.
+<br>
+<br>11. Monitoring and Logging:
+<br>    - Implementing monitoring and logging solutions helps keep track of the Jenkins server&#39;s health and performance and aids in troubleshooting any issues that may arise.
+<br>
+<br>12. High Availability and Scalability (Optional):
+<br>    - For large-scale deployments or mission-critical applications, a high availability setup with load balancing and multiple Jenkins instances may be required to ensure continuous service availability.
+<br>
+<br>Setting up and maintaining a Jenkins infrastructure is crucial to streamline the CI/CD process and enable software teams to build, test, and deploy applications more efficiently. As the infrastructure grows, proper monitoring, backups, and disaster recovery plans become essential to ensure a reliable and stable Jenkins environment.</div></td></tr></tbody></table></div>
